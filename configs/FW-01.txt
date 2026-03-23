@@ -137,6 +137,7 @@ no ip http secure-server
 !
 !         
 ip nat inside source list NAT-NETWORKS interface FastEthernet1/0 overload
+ip route 0.0.0.0 0.0.0.0 192.168.122.1
 !
 ip access-list standard NAT-NETWORKS
  permit 192.168.1.0 0.0.0.255
