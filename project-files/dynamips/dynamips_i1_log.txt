@@ -1,0 +1,10 @@
+Mar 23 02:14:30.398 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Mar 23 02:14:30.398 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 35021.
+Mar 23 02:14:30.406 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 23 02:14:30.406 HYPERVISOR: exec_cmd: hypervisor working_dir /home/student/GNS3/projects/untitled/project-files/dynamips 
+Mar 23 02:14:30.406 GENERAL: working_dir=/home/student/GNS3/projects/untitled/project-files/dynamips
+Mar 23 02:14:30.406 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Mar 23 02:25:31.717 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Mar 23 02:25:31.718 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 23 02:25:32.164 HYPERVISOR: Stopped.
+Mar 23 02:25:32.164 GENERAL: reset done.
