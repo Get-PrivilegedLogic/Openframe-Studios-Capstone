@@ -1,1 +1,60 @@
-project-files/
+# GNS3 Project Files
+# Ignore dynamips files (router emulation artifacts)
+project-files/dynamips/*.log
+project-files/dynamips/*.txt
+project-files/dynamips/ilt_*
+project-files/dynamips/configs/
+
+# IOU/IOL files (Cisco IOS on Unix)
+project-files/iou/
+
+# QEMU files
+project-files/qemu/*.qcow2
+project-files/qemu/*.img
+
+# VirtualBox files
+project-files/virtualbox/
+
+# VMware files
+project-files/vmware/
+
+# Docker files
+project-files/docker/
+
+# IOS images and appliances (usually large)
+*.bin
+*.image
+
+# Snapshots
+snapshots/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Python (if using automation scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+virtualenv/
+
+# Node.js (if using any JS tooling)
+node_modules/
+npm-debug.log*
