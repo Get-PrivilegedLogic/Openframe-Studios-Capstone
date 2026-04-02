@@ -14,10 +14,8 @@ This project demonstrates the design, implementation, and documentation of a com
 ## Project Structure
 ```
 Openframe-Studios-Capstone/
-├── Openframe_Studios_Capstone.gns3    # Main GNS3 project file
-├── New_Openframe_Studios_Capstone.gns3 # Alternative project version
+├── New_Openframe_Studios_Capstone.gns3 # Main GNS3 project file
 ├── configs/                            # Device configurations
-├── GNS3/                               # GNS3-specific files
 └── project-files/                      # GNS3 project artifacts (generated)
 ```
 
@@ -54,7 +52,7 @@ cd Openframe-Studios-Capstone
 1. Launch GNS3
 2. Click **File → Open Project**
 3. Navigate to the cloned repository
-4. Select `Openframe_Studios_Capstone.gns3`
+4. Select `New_Openframe_Studios_Capstone.gns3`
 
 ### Step 4: Configure Network Devices
 *Add your device configuration steps here based on your specific topology*
